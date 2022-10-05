@@ -11,3 +11,9 @@
  * It is generally better to create a new file per style scope.
  */
 @import "bootstrap";
+
+// Variables
+@import "base/variables";
+
+// Partials - Main CSS files
+@import "partials/layout/*";
