@@ -46,7 +46,7 @@ gem "bootsnap", require: false
 gem 'sassc-rails', '>= 2.1.0'
 
 # Use Bootstrap
-gem 'bootstrap-sass', '~> 3.4.1'
+gem 'bootstrap', '~> 5.2.1'
 
 # Use jQuery
 gem 'jquery-rails'
