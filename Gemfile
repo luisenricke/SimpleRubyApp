@@ -45,11 +45,17 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 gem 'sassc-rails', '>= 2.1.0'
 
-# Use Bootstrap
+# Compile and minify Bootstrap
 gem 'bootstrap', '~> 5.2.1'
 
-# Use jQuery
+# Compile and minify Bootstrap Forms Helpers
+gem "bootstrap_form", "~> 5.1"
+
+# Compile and minify jQuery
 gem 'jquery-rails'
+
+# Handle authentication
+gem 'devise'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
