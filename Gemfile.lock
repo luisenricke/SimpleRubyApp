@@ -110,6 +110,8 @@ GEM
     e2mmap (0.1.0)
     erubi (1.11.0)
     execjs (2.8.1)
+    faker (2.23.0)
+      i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -300,6 +302,7 @@ DEPENDENCIES
   capybara
   debug
   devise
+  faker
   htmlbeautifier
   importmap-rails
   jbuilder
