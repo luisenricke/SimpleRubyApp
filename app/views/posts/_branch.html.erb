@@ -8,6 +8,11 @@
     <%= render 'posts/branch/categories', branch: branch %>
   </div>
   <div class="row">
+    <%= render  'posts/branch/search_form',
+              branch: branch,
+              search_placeholder: search_placeholder %>
+  </div>
+  <div class="row">
     <%= render @posts %>
     <%= render no_posts_partial_path %>
   </div>

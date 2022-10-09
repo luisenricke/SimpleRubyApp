@@ -36,6 +36,11 @@ a:visited {
     display: none;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 .login-button,
 .sign-up-button {
     background-color: $navbarColor;
