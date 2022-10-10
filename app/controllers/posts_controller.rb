@@ -37,6 +37,20 @@ class PostsController < ApplicationController
     end
   end
 
+  def edit
+    @categories = Category.all
+    @post = Post.find(params[:id])
+  end
+
+  def update
+    @post = Post.find(params[:id])
+    if @post.update(post_params)
+      redirect_to post_path(@post)
+    else
+      redirect_to root_path
+    end
+  end
+
   private
 
   def get_posts
